@@ -1,0 +1,6 @@
+year,legal_uncertainty_score,credit_uncertainty_score,demand_support_uncertainty_score,infrastructure_execution_uncertainty_score,policy_uncertainty_score,interpretation,dominant_uncertainty_driver,notes
+2021,,,,3.0,3.0,Moderate uncertainty,infrastructure_execution_uncertainty_score,Rule-based portfolio project index derived from coded policy events; not an official index.
+2022,3.0,5.0,,3.0,3.6666666666666665,High uncertainty,credit_uncertainty_score,Rule-based portfolio project index derived from coded policy events; not an official index.
+2023,4.0,5.0,3.6666666666666665,,4.222222222222222,High uncertainty,credit_uncertainty_score,Rule-based portfolio project index derived from coded policy events; not an official index.
+2024,4.0,3.0,3.0,3.0,3.25,Moderate uncertainty,legal_uncertainty_score,Rule-based portfolio project index derived from coded policy events; not an official index.
+2025,3.0,,3.0,,3.0,Moderate uncertainty,legal_uncertainty_score;demand_support_uncertainty_score,Rule-based portfolio project index derived from coded policy events; not an official index.

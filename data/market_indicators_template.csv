@@ -1,0 +1,2 @@
+indicator_id,period,geography,segment,indicator_name,unit,value,source_id,collection_method,notes
+INSTRUCTIONS,"YYYY-Q# or YYYY-MM","Vietnam|HCMC|Hanoi|province_name","primary_residential|secondary_residential|condo|landed|affordable|luxury|other","Example: new_launches, absorption_rate, average_price, inventory, transaction_volume","Use source unit","Leave blank until sourced","Link to source_log_template.csv","manual_entry|download|calculated","Do not fabricate values"

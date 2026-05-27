@@ -1,0 +1,2 @@
+source_id,source_date,source_title,publisher,source_type,url_or_file_path,reliability_notes,access_date,key_fields_supported
+INSTRUCTIONS,YYYY-MM-DD,"Title of document or article","Publisher or institution","government|company_filing|broker_report|news|database|academic|other","URL or local path","Brief note on credibility and limitations",YYYY-MM-DD,"List templates or fields supported by this source"
