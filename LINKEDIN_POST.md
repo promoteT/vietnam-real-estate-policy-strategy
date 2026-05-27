@@ -1,6 +1,6 @@
 I recently built a consulting-style strategy project on Vietnam's residential real estate sector under public policy uncertainty.
 
-Instead of forecasting one recovery path, the project asks:
+Instead of trying to forecast one recovery path, the project asks:
 
 How should developers adapt product, land bank, capital, and launch strategies under multiple policy scenarios from 2026-2030?
 
@@ -19,6 +19,6 @@ Vietnam's real estate recovery should not be viewed as one uniform market reboun
 This project helped me practice market structure analysis, public policy analysis, scenario planning, and consulting-style communication.
 
 Repository:
-[insert GitHub link here]
+https://github.com/promoteT/vietnam-real-estate-policy-strategy
 
 #RealEstate #Strategy #Vietnam #Consulting #PolicyAnalysis

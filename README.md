@@ -6,7 +6,7 @@ How public policy uncertainty shapes developer strategy, market structure, and c
 
 ## Project Overview
 
-This is a consulting-style market strategy project, not a valuation project. It analyzes how public policy uncertainty affects Vietnam residential real estate developers' product, land bank, capital, and launch strategies, then translates the findings into scenarios, developer archetypes, and strategic recommendations.
+This is a consulting-style market strategy project, not a valuation or investment recommendation. It analyzes how public policy uncertainty affects Vietnam residential real estate developers' product, land bank, capital, and launch strategies, then translates the findings into scenarios, developer archetypes, and strategic recommendations.
 
 ## 3-Minute Reading Guide
 
@@ -29,7 +29,7 @@ The key strategic shift is not from pessimism to optimism, but from broad-market
 
 Vietnam real estate is heavily shaped by public policy. Land rules, housing regulation, credit policy, corporate bond regulation, social housing programs, infrastructure execution, and market transparency requirements can all affect supply, demand, capital access, project launches, and market structure.
 
-This project demonstrates market structure analysis, policy analysis, scenario planning, and strategic recommendation skills. It complements an FPT valuation project by showing consulting-style strategy work rather than company valuation alone.
+This project demonstrates market structure analysis, policy analysis, scenario planning, and strategic recommendation skills. It is designed as a standalone strategy portfolio project rather than a valuation or investment recommendation.
 
 ## Analytical Flow
 
