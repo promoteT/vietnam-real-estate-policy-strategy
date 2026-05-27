@@ -1,14 +1,29 @@
 # Vietnam Residential Real Estate Strategy Under Policy Uncertainty
 
+A consulting-style strategy case on how Vietnamese residential developers should allocate capital, phase launches, and position land banks under policy uncertainty from 2026-2030.
+
 How public policy uncertainty shapes developer strategy, market structure, and capital allocation in Vietnam's residential real estate sector.
 
 ## Project Overview
 
 This is a consulting-style market strategy project, not a valuation project. It analyzes how public policy uncertainty affects Vietnam residential real estate developers' product, land bank, capital, and launch strategies, then translates the findings into scenarios, developer archetypes, and strategic recommendations.
 
+## 3-Minute Reading Guide
+
+If you are reviewing this project quickly:
+
+1. Start with `report/market_strategy_memo.md` for the executive recommendation.
+2. Review `output/charts/05_scenario_strategy_matrix.png` for the scenario logic.
+3. Review `output/charts/06_developer_archetype_map.png` for company positioning.
+4. Check `data/source_log.csv` to see the official policy sources behind the analysis.
+
 ## Core Business Question
 
 How should Vietnamese residential real estate developers adapt their product, land bank, capital, and launch strategies under public policy uncertainty during 2026-2030?
+
+## Core Strategic Insight
+
+The key strategic shift is not from pessimism to optimism, but from broad-market recovery thinking to policy-contingent capital allocation. Developers should not ask only "Will the market recover?" They should ask which projects become executable under each policy path, which customer segments can absorb supply, and which balance sheets can survive delayed implementation.
 
 ## Why This Project Matters
 
@@ -94,6 +109,9 @@ Policy timeline -> Policy Uncertainty Index -> Scenario Matrix -> Developer Arch
 ```text
 02_vietnam_real_estate_policy_strategy/
 ├── README.md
+├── PROJECT_BRIEF.md
+├── LINKEDIN_POST.md
+├── requirements.txt
 ├── data/
 │   ├── raw/
 │   ├── processed/
@@ -129,9 +147,21 @@ Policy timeline -> Policy Uncertainty Index -> Scenario Matrix -> Developer Arch
 
 ## How To Run
 
-Run the workflow from the project root:
+Run the workflow from the project root.
+
+Optional Windows virtual environment setup:
 
 ```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Install dependencies and run the analysis scripts:
+
+```bash
+pip install -r requirements.txt
+
 python notebooks/policy_uncertainty_index.py
 python notebooks/scenario_analysis.py
 python notebooks/market_structure_analysis.py
@@ -143,6 +173,14 @@ python notebooks/create_charts.py
 Policy events were coded into categories such as land policy, housing policy, credit policy, corporate bond regulation, social housing policy, infrastructure/public investment, project legal bottlenecks, and market transparency.
 
 Uncertainty levels were mapped into simple numeric scores: Low = 1, Medium = 3, and High = 5. Annual pillar scores were calculated across legal uncertainty, credit uncertainty, demand-support uncertainty, and infrastructure-execution uncertainty. Scenarios were built as planning tools, not forecasts. Developer archetypes were classified from public information captured in the project case files.
+
+| Uncertainty level | Score | Coding logic |
+|---|---:|---|
+| Low | 1 | Rule direction and implementation path are relatively clear. |
+| Medium | 3 | Policy direction is clear, but timing, local execution, or eligibility varies. |
+| High | 5 | Policy impact is material, but implementation, eligibility, market response, or developer-specific effects remain uncertain. |
+
+The scoring is designed for transparent scenario planning, not statistical inference.
 
 ## Limitations
 
@@ -162,4 +200,3 @@ This project demonstrates:
 - Company archetype classification
 - Python-based analytical workflow
 - Consulting-style communication
-
